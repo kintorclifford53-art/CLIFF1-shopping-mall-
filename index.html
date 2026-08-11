@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLIFF 1 Shopping Mall</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 30px;
+    }
+
+    header p {
+      margin-top: 5px;
+      color: #ddd;
+    }
+
+    nav {
+      background: #ff6600;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 40px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .search {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .search input {
+      width: 90%;
+      max-width: 500px;
+      padding: 13px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .product .phone {
+      font-size: 70px;
+      margin-bottom: 10px;
+    }
+
+    .product h3 {
+      margin: 8px 0;
+    }
+
+    .price {
+      color: #ff6600;
+      font-weight: bold;
+      margin: 10px;
+    }
+
+    button {
+      background: #ff6600;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #e65c00;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🛍️ CLIFF 1 SHOPPING MALL</h1>
+    <p>Your online shopping destination</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to CLIFF 1 Shopping Mall</h2>
+    <p>Find your favorite products in one place.</p>
+  </section>
+
+  <div class="search">
+    <input
+      type="text"
+      id="search"
+      placeholder="🔎 Search for a product..."
+      onkeyup="searchProducts()"
+    >
+  </div>
+
+  <section class="products" id="products">
+
+    <div class="product">
+      <div class="phone">📱</div>
+      <h3>iPhone 15</h3>
+      <p class="price">GH₵ 8,000</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <div class="phone">📱</div>
+      <h3>iPhone 13</h3>
+      <p class="price">GH₵ 6,000</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <div class="phone">📱</div>
+      <h3>Samsung Galaxy S26</h3>
+      <p class="price">GH₵ 9,000</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <div class="phone">📱</div>
+      <h3>Tecno Smartphone</h3>
+      <p class="price">GH₵ 2,500</p>
+      <button>Add to Cart</button>
+    </div>
+
+  </section>
+
+  <footer id="contact">
+    <h3>CLIFF 1 Shopping Mall</h3>
+    <p>© 2026 CLIFF 1 Shopping Mall</p>
+  </footer>
+
+  <script>
+    function searchProducts() {
+      const search = document.getElementById("search").value.toLowerCase();
+      const products = document.querySelectorAll(".product");
+
+      products.forEach(product => {
+        const name = product.querySelector("h3").textContent.toLowerCase();
+
+        if (name.includes(search)) {
+          product.style.display = "";
+        } else {
+          product.style.display = "none";
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
