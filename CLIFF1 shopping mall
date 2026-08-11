@@ -154,37 +154,159 @@
     >
   </div>
 
-  <section class="products" id="products">
+  <
+p
 
-    <div class="product">
+    <<img src="https://images.unsplash.com/photo-1592286927505-2fd7d9c9c9e6?auto=format&fit=crop&w=500&q=80" alt="iPhone">
       <div class="phone">📱</div>
       <h3>iPhone 15</h3>
       <p class="price">GH₵ 8,000</p>
       <button>Add to Cart</button>
     </div>
+<section class="products" id="products">
 
-    <div class="product">
-      <div class="phone">📱</div>
-      <h3>iPhone 13</h3>
-      <p class="price">GH₵ 6,000</p>
-      <button>Add to Cart</button>
-    </div>
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>iPhone 17</h3>
+    <p class="price">GH₵ 10,000</p>
+    <button>Add to Cart</button>
+  </div>
 
-    <div class="product">
-      <div class="phone">📱</div>
-      <h3>Samsung Galaxy S26</h3>
-      <p class="price">GH₵ 9,000</p>
-      <button>Add to Cart</button>
-    </div>
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>iPhone 15</h3>
+    <p class="price">GH₵ 8,000</p>
+    <button>Add to Cart</button>
+  </div>
 
-    <div class="product">
-      <div class="phone">📱</div>
-      <h3>Tecno Smartphone</h3>
-      <p class="price">GH₵ 2,500</p>
-      <button>Add to Cart</button>
-    </div>
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>iPhone 13</h3>
+    <p class="price">GH₵ 6,000</p>
+    <button>Add to Cart</button>
+  </div>
 
-  </section>
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>iPhone 12</h3>
+    <p class="price">GH₵ 5,000</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>iPhone 11</h3>
+    <p class="price">GH₵ 4,000</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>Samsung Galaxy S26</h3>
+    <p class="price">GH₵ 9,000</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>Samsung Galaxy S24</h3>
+    <p class="price">GH₵ 7,000</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>Samsung Galaxy S10</h3>
+    <p class="price">GH₵ 2,500</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>Samsung Galaxy S9</h3>
+    <p class="price">GH₵ 2,000</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>Tecno Camon</h3>
+    <p class="price">GH₵ 2,800</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>Tecno Spark</h3>
+    <p class="price">GH₵ 1,800</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>Infinix Note</h3>
+    <p class="price">GH₵ 2,500</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">📱</div>
+    <h3>Infinix Hot</h3>
+    <p class="price">GH₵ 1,700</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">💻</div>
+    <h3>HP Laptop</h3>
+    <p class="price">GH₵ 6,500</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">💻</div>
+    <h3>Dell Laptop</h3>
+    <p class="price">GH₵ 6,000</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">🎧</div>
+    <h3>Wireless Headphones</h3>
+    <p class="price">GH₵ 350</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">⌚</div>
+    <h3>Smart Watch</h3>
+    <p class="price">GH₵ 500</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">🔊</div>
+    <h3>Bluetooth Speaker</h3>
+    <p class="price">GH₵ 450</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">🔌</div>
+    <h3>Phone Charger</h3>
+    <p class="price">GH₵ 150</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <div class="phone">🔋</div>
+    <h3>Power Bank</h3>
+    <p class="price">GH₵ 300</p>
+    <button>Add to Cart</button>
+  </div>
+
+</section>
+
 
   <footer id="contact">
     <h3>CLIFF 1 Shopping Mall</h3>
